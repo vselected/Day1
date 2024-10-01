@@ -1,2 +1,3 @@
 # Day1
-Just hanging around learning basics \n Check Master branch
+Just hanging around learning basics   
+Check Master branch
