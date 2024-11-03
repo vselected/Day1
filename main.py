@@ -44,8 +44,23 @@ print("tinker"[1:4])
 name = "Sam"
 print(name[1:])
 last_letters = name[1:]
-print("P"+last_letters)
+print("P" + last_letters)
 
 x = "Hello World"
 x = x + " it's beautiful outside!"
 print(x)
+
+letter = "z"
+print(10 * letter)
+
+print(2 + 3)
+print("2" + "3")
+
+# Methods
+x = "Hello World"
+print(x.upper())
+print(x.lower())
+
+x = "Hello this is a string"
+print(x.split())
+print(x.split("i"))
