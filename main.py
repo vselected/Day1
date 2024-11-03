@@ -64,3 +64,19 @@ print(x.lower())
 x = "Hello this is a string"
 print(x.split())
 print(x.split("i"))
+
+# String formatting for printing
+# .format() method
+print("This is a string {}".format("INSERTED"))
+print("The {2} {1} {0}".format("fox", "brown", "quick"))
+print("The {0} {0} {0}".format("fox", "brown", "quick"))
+print("The {q} {b} {f}".format(f = "fox", b = "brown", q = "quick"))
+
+# Float formatting
+result = 2984/777
+print(result)
+print("The result was {r:1.3f}".format(r = result))
+
+name = "Jose"
+age = 16
+print(f"Hello his name is {name} he's {age}")
