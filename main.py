@@ -38,4 +38,14 @@ print("Hello World"[8])
 # You should only write one line of code for this. Do not assign a variable name to the string.
 print("tinker"[1:4])
 
-#Learning about String Properties and Methods
+# Learning about String Properties and Methods
+# String Concatenation
+# Change name from Sam to Pam
+name = "Sam"
+print(name[1:])
+last_letters = name[1:]
+print("P"+last_letters)
+
+x = "Hello World"
+x = x + " it's beautiful outside!"
+print(x)
