@@ -80,3 +80,14 @@ print("The result was {r:1.3f}".format(r = result))
 name = "Jose"
 age = 16
 print(f"Hello his name is {name} he's {age}")
+
+# Exercise
+# Print Formatting
+# Write an expression using any of the string formatting methods we have learned (except f-strings, see note below) to return the phrase 'Python rules!'
+# For example, these phrases both return 'I like apples' :
+# 'I like %s' %'apples'
+# 'I like {}'.format('apples')
+# Your solution should be entered on one line. You can not use variable names, only the strings themselves.
+# NOTE: At this time, f-strings won't work! Udemy Coding Exercises use Python 3.5.2, and f-strings require Python 3.6 or higher.
+print("{0} {1}".format("Python", "rules!"))
+
